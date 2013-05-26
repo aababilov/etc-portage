@@ -1,0 +1,55 @@
+app-dicts/lingvo-stardict all-dicts
+app-doc/doxygen -latex
+app-editors/emacs m17n-lib xft sound
+app-editors/gedit python
+app-emacs/ecb -java
+app-emulation/libvirt python qemu virt-network virtualbox
+app-misc/mc slang -ncurses
+app-office/dia doc
+app-office/openoffice-bin java
+app-portage/layman bazaar cvs git mercurial subversion
+app-shells/zsh caps examples
+app-text/evince djvu dvi tiff t1lib gnome
+app-text/ghostscript-gpl cups
+app-text/lcdf-typetools kpathsea
+app-text/stardict spell
+app-text/texlive-core xetex
+app-text/texlive cyrillic extra dvi2tty dvipdfm xetex luatex
+dev-db/mongodb v8
+dev-java/icedtea* nsplugin source
+dev-java/sun-jdk X alsa nsplugin
+dev-lang/php gd apache2 mysql mysqli mysqlnd
+dev-lang/python sqlite
+dev-lang/scala binary source
+dev-lisp/clisp -berkdb
+media-*/audacious* -gtk gtk3
+media-gfx/graphicsmagick -imagemagick
+media-gfx/graphviz java
+media-libs/freetype:1 kpathsea
+media-libs/gd fontconfig
+media-libs/lcms python
+media-libs/mesa g3dvl
+media-video/mkvtoolnix lzo bzip2 pch
+media-video/mplayer2* symlink
+net-dns/bind berkdb ipv6 dlz
+net-fs/samba swat cups
+net-im/skype qt-static
+net-libs/gtk-vnc python
+net-libs/ptlib wav
+net-misc/dropbox librsync-bundled
+net-misc/networkmanager-* gnome
+net-misc/networkmanager ppp bluetooth dhclient -dhcpcd
+net-print/foomatic-filters cups
+sci-astronomy/stellarium stars
+sys-apps/busybox static -pam
+sys-apps/pciutils -zlib
+sys-apps/systemd-units server ingnome3
+sys-devel/gcc fortran
+sys-fs/eudev gudev introspection keymap hwdb
+www-client/chromium bindist
+www-servers/apache apache2_modules_dav_fs apache2_modules_authn_file apache2_modules_dav apache2_modules_authz_groupfile
+x11-base/xorg-server kdrive
+x11-drivers/ati-drivers qt4
+x11-libs/vte python
+x11-misc/lightdm gtk
+x11-misc/xscreensaver new-login suid xinerama
