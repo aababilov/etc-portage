@@ -1,11 +1,7 @@
-app-admin/eselect-openc
 app-arch/snappy
 app-editors/gedit-plugins
-app-emacs/ecb
 app-emacs/emhacks
-app-emacs/scala-mod
 app-emacs/scala-mode
-app-emacs/yaml-mod
 app-emacs/yaml-mode
 app-emulation/emul-linux-x86-*
 app-emulation/virtualbox-bin
@@ -21,7 +17,6 @@ dev-db/mongodb
 dev-java/icedtea-bin
 dev-lang/scala
 dev-libs/boost
-dev-libs/glib
 dev-libs/liblinebreak
 dev-python/git-review
 dev-python/pep8
@@ -56,14 +51,10 @@ sys-apps/pciutils
 sys-apps/systemd
 sys-apps/systemd-ui
 sys-apps/sysvinit
-sys-apps/sysvinit
 sys-apps/util-linux
 sys-boot/grub **
 sys-boot/os-prober
 sys-firmware/b43-firmware
-sys-firmware/seabios
-sys-firmware/sgabios
-sys-firmware/vgabios
 sys-fs/google-docs-fs
 sys-fs/jmtpfs
 sys-fs/lvm2
