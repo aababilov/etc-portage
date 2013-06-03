@@ -1,4 +1,6 @@
-bin
-make.profile
-postsync.d
-savedconfig
+*~
+._cfg*
+/bin
+/make.profile
+/postsync.d
+/savedconfig
