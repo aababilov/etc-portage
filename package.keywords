@@ -18,11 +18,7 @@ dev-java/icedtea-bin
 dev-lang/scala
 dev-libs/boost
 dev-libs/liblinebreak
-dev-python/git-review
-dev-python/pep8
-dev-python/setuptools
-dev-python/virtualenv-clone
-dev-python/virtualenvwrapper
+dev-python/*
 dev-util/autodia
 dev-util/boost-build
 dev-util/intltool
@@ -52,7 +48,7 @@ sys-apps/systemd
 sys-apps/systemd-ui
 sys-apps/sysvinit
 sys-apps/util-linux
-sys-boot/grub **
+sys-boot/grub
 sys-boot/os-prober
 sys-firmware/b43-firmware
 sys-fs/google-docs-fs
