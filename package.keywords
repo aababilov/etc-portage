@@ -15,12 +15,14 @@ app-shells/push
 app-text/fbreader
 dev-db/mongodb
 dev-java/icedtea-bin
+dev-lang/go
 dev-lang/scala
 dev-libs/boost
 dev-libs/liblinebreak
 dev-python/*
 dev-util/autodia
 dev-util/boost-build
+dev-util/depot_tools
 dev-util/intltool
 dev-util/patchelf
 gnome-extra/nautilus-dropbox
