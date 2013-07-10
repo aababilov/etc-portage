@@ -38,7 +38,8 @@ net-libs/gtk-vnc python
 net-libs/ptlib wav
 net-misc/dropbox librsync-bundled
 net-misc/networkmanager-* gnome
-net-misc/networkmanager ppp bluetooth dhclient -dhcpcd
+net-misc/networkmanager ppp bluetooth
+net-misc/openvpn iproute2
 net-print/foomatic-filters cups
 sci-astronomy/stellarium stars
 sys-apps/busybox static -pam
@@ -53,3 +54,4 @@ x11-drivers/ati-drivers qt4
 x11-libs/vte python
 x11-misc/lightdm gtk
 x11-misc/xscreensaver new-login suid xinerama
+net-misc/spice-gtk python

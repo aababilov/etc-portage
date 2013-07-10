@@ -10,6 +10,7 @@ app-emulation/virt-viewer
 app-emulation/vmware-modules
 app-emulation/vmware-player
 app-emulation/vmware-tools
+app-laptop/laptop-mode-tools
 app-shells/bash-completion
 app-shells/push
 app-text/fbreader
@@ -37,7 +38,8 @@ net-fs/openafs
 net-fs/openafs-kernel
 net-im/skype
 net-misc/dropbox
-net-misc/spice-gtk
+net-misc/grive
+net-print/cups*
 net-wireless/b43-fwcutter
 net-wireless/bluez
 sys-apps/baselayout
@@ -66,7 +68,9 @@ www-plugins/google-talkplugin **
 x11-apps/ccsm
 x11-drivers/ati-drivers
 x11-libs/libview
+x11-libs/wxGTK
 x11-misc/keytouch-editor
 x11-misc/lightdm
 x11-misc/lightdm-gtk-greeter
 xfce-extra/xfce4-xkb-plugin
+app-misc/path-compat-wrapper
