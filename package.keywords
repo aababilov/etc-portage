@@ -20,7 +20,6 @@ dev-lang/go
 dev-lang/scala
 dev-libs/boost
 dev-libs/liblinebreak
-dev-python/*
 dev-util/autodia
 dev-util/boost-build
 dev-util/depot_tools

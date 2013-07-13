@@ -12,6 +12,7 @@ app-shells/zsh caps examples
 app-text/evince djvu dvi tiff t1lib gnome
 app-text/ghostscript-gpl cups
 app-text/lcdf-typetools kpathsea
+app-text/poppler qt4
 app-text/stardict spell
 app-text/texlive-core xetex
 app-text/texlive cyrillic extra dvi2tty dvipdfm xetex luatex
@@ -22,6 +23,7 @@ dev-lang/php gd apache2 mysql mysqli mysqlnd
 dev-lang/python sqlite
 dev-lang/scala binary source
 dev-lisp/clisp -berkdb
+dev-python/PyQt4 webkit
 media-*/audacious* -gtk gtk3
 media-gfx/graphicsmagick -imagemagick
 media-gfx/graphviz java
@@ -40,6 +42,7 @@ net-misc/dropbox librsync-bundled
 net-misc/networkmanager-* gnome
 net-misc/networkmanager ppp bluetooth
 net-misc/openvpn iproute2
+net-misc/spice-gtk python
 net-print/foomatic-filters cups
 sci-astronomy/stellarium stars
 sys-apps/busybox static -pam
@@ -54,4 +57,3 @@ x11-drivers/ati-drivers qt4
 x11-libs/vte python
 x11-misc/lightdm gtk
 x11-misc/xscreensaver new-login suid xinerama
-net-misc/spice-gtk python
