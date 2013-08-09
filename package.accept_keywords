@@ -18,6 +18,7 @@ dev-java/icedtea-bin
 dev-lang/go
 dev-lang/scala
 dev-libs/boost
+dev-python/scripttest
 dev-util/autodia
 dev-util/boost-build
 dev-util/depot_tools
@@ -25,11 +26,13 @@ dev-util/intltool
 dev-util/patchelf
 gnome-extra/nautilus-dropbox
 media-gfx/gpicview
+media-libs/avidemux*
 media-libs/gnonlin
 media-libs/gphotofs
 media-libs/libmtp
 media-libs/win32codecs
 media-sound/easytag
+media-video/avidemux
 media-video/pitiv
 net-fs/openafs
 net-fs/openafs-kernel
@@ -38,6 +41,7 @@ net-im/skype
 net-misc/dropbox
 net-misc/grive
 net-misc/ntp
+net-misc/spice-gtk
 net-print/cups*
 net-wireless/b43-fwcutter
 sys-apps/hwids
@@ -67,4 +71,6 @@ x11-drivers/ati-drivers
 x11-libs/wxGTK
 x11-misc/lightdm
 x11-misc/lightdm-gtk-greeter
+xfce-base/libxfce4util
+xfce-base/xfce4-session
 xfce-extra/xfce4-xkb-plugin
