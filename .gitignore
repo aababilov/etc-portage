@@ -1,6 +1,7 @@
 *~
 ._cfg*
 /bin
+/make.conf.local
 /make.profile
 /postsync.d
 /savedconfig

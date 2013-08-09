@@ -51,7 +51,7 @@ sys-apps/systemd-units server ingnome3
 sys-devel/gcc fortran
 sys-fs/eudev gudev introspection keymap hwdb
 www-client/chromium bindist
-www-servers/apache apache2_modules_dav_fs apache2_modules_authn_file apache2_modules_dav apache2_modules_authz_groupfile
+www-servers/apache apache2_modules_dav_fs apache2_modules_authn_file apache2_modules_dav apache2_modules_authz_groupfile apache2_modules_auth_digest
 x11-base/xorg-server kdrive
 x11-drivers/ati-drivers qt4
 x11-libs/vte python
