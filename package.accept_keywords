@@ -14,6 +14,7 @@ app-laptop/laptop-mode-tools
 app-shells/bash-completion
 app-shells/push
 dev-db/mongodb
+dev-db/mysql-init-scripts
 dev-java/icedtea-bin
 dev-lang/go
 dev-lang/scala
