@@ -32,7 +32,6 @@ net-misc/dropbox
 net-misc/grive
 net-misc/ntp
 net-misc/spice-gtk
-net-print/cups*
 net-wireless/b43-fwcutter
 sys-apps/hwids
 sys-apps/kmod
