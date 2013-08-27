@@ -46,6 +46,7 @@ www-client/firefox-bin
 www-client/google-chrome
 www-plugins/google-talkplugin
 x11-drivers/ati-drivers
+x11-drivers/nvidia-drivers
 x11-libs/wxGTK
 xfce-base/libxfce4util
 xfce-base/xfce4-session
