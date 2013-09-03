@@ -4,6 +4,8 @@ app-editors/emacs m17n-lib xft sound
 app-editors/gedit python
 app-emacs/ecb -java
 app-emulation/libvirt python qemu virt-network virtualbox
+app-emulation/libvirt-glib python
+app-emulation/qemu spice virtfs xattr
 app-misc/mc slang -ncurses
 app-office/dia doc
 app-office/openoffice-bin java
