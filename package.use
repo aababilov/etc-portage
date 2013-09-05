@@ -1,10 +1,8 @@
 app-dicts/lingvo-stardict all-dicts
 app-doc/doxygen -latex
 app-editors/emacs m17n-lib xft sound
-app-editors/gedit python
 app-emacs/ecb -java
-app-emulation/libvirt python qemu virt-network virtualbox
-app-emulation/libvirt-glib python
+app-emulation/libvirt qemu virt-network virtualbox
 app-emulation/qemu spice virtfs xattr
 app-misc/mc slang -ncurses
 app-office/dia doc
@@ -31,20 +29,17 @@ media-gfx/graphicsmagick -imagemagick
 media-gfx/graphviz java
 media-libs/freetype:1 kpathsea
 media-libs/gd fontconfig
-media-libs/lcms python
 media-libs/mesa g3dvl
 media-video/mkvtoolnix lzo bzip2 pch
 media-video/mplayer2* symlink
 net-dns/bind berkdb ipv6 dlz
 net-fs/samba swat cups
 net-im/skype qt-static
-net-libs/gtk-vnc python
 net-libs/ptlib wav
 net-misc/dropbox librsync-bundled
 net-misc/networkmanager-* gnome
 net-misc/networkmanager ppp bluetooth
 net-misc/openvpn iproute2
-net-misc/spice-gtk python
 net-print/foomatic-filters cups
 sci-astronomy/stellarium stars
 sys-apps/busybox static -pam
@@ -56,6 +51,5 @@ www-client/chromium bindist
 www-servers/apache apache2_modules_dav_fs apache2_modules_authn_file apache2_modules_dav apache2_modules_authz_groupfile apache2_modules_auth_digest
 x11-base/xorg-server kdrive
 x11-drivers/ati-drivers qt4
-x11-libs/vte python
 x11-misc/lightdm gtk
 x11-misc/xscreensaver new-login suid xinerama
