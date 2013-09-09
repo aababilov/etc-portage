@@ -20,10 +20,12 @@ media-gfx/gpicview
 media-libs/avidemux*
 media-libs/gnonlin
 media-libs/gphotofs
+media-libs/mlt
 media-libs/libmtp
 media-libs/win32codecs
 media-sound/easytag
 media-video/avidemux
+media-video/openshot
 media-video/pitivi
 net-fs/openafs
 net-fs/openafs-kernel

@@ -30,6 +30,7 @@ media-gfx/graphviz java
 media-libs/freetype:1 kpathsea
 media-libs/gd fontconfig
 media-libs/mesa g3dvl
+media-libs/mlt frei0r melt kdenlive
 media-video/mkvtoolnix lzo bzip2 pch
 media-video/mplayer2* symlink
 net-dns/bind berkdb ipv6 dlz
