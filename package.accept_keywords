@@ -35,7 +35,6 @@ net-misc/grive
 net-misc/ntp
 net-misc/spice-gtk
 net-wireless/b43-fwcutter
-sys-apps/hwids
 sys-apps/kmod
 sys-apps/systemd-ui
 sys-boot/grub
