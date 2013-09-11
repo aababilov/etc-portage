@@ -25,6 +25,7 @@ media-libs/libmtp
 media-libs/win32codecs
 media-sound/easytag
 media-video/avidemux
+media-video/ffmpeg
 media-video/openshot
 media-video/pitivi
 net-fs/openafs
