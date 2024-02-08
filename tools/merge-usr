@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 """
 The script performs /usr merge for Gentoo
@@ -12,7 +12,7 @@ To make the system updatable, put this script to /etc/portage/tools/merge-usr,
 make it executable, and add to /etc/portage/bashrc:
 
 post_src_install() {
-	/etc/portage/tools/merge-usr "$D"
+        /etc/portage/tools/merge-usr "$D"
 }
 """
 
@@ -22,7 +22,7 @@ import subprocess
 import sys
 
 
-dirs = ["bin", "sbin", "lib", "lib32", "lib64"]
+dirs = ["bin", "sbin", "lib", "lib64"]
 image_dir = ""
 
 
@@ -43,15 +43,15 @@ def handle_links(link, target):
     if os.path.islink(full_name(link)):
         ref = normlink(link)
         if "/" not in ref:
-            print "%s is a local symlink to %s" % (link, ref)
+            print("%s is a local symlink to %s" % (link, ref))
             return link
         if ref == target:
-            print "%s is a symlink to %s" % (link, target)
+            print("%s is a symlink to %s" % (link, target))
             return target
         if os.path.islink(full_name(target)):
             target_ref = normlink(target)
             if ref == target_ref:
-                print "%s and %s are links to %s" % (link, target, ref)
+                print ("%s and %s are links to %s" % (link, target, ref)) 
                 return target
     return None
 
@@ -107,12 +107,12 @@ def main():
     for dir_name in dirs:
         full_dir_name = full_name(dir_name)
         if not os.path.exists(full_dir_name):
-            print "Skipping missing %s" % full_dir_name
+            print("Skipping missing %s" % full_dir_name)
             continue
         if os.path.islink(full_dir_name):
-            print "Skipping %s symlink" % full_dir_name
+            print ("Skipping %s symlink" % full_dir_name) 
             continue
-        print "Processing %s" % full_dir_name
+        print ("Processing %s" % full_dir_name) 
         for fname in sorted(os.listdir(full_dir_name)):
             root_name = "/%s/%s" % (dir_name, fname)
             root_filenames.append(root_name)
@@ -128,21 +128,21 @@ def main():
                                        else root_name)
 
     if file_conflicts:
-        print "Cannot merge /usr because of conflicts:"
-        print "\n\t".join(file_conflicts)
+        print ("Cannot merge /usr because of conflicts:")
+        print("\n\t".join(file_conflicts))
         sys.exit(2)
     else:
         if file_keep:
-            print "These files will be kept:"
-            print "\t", "\n\t".join(file_keep)
+            print("These files will be kept:")
+            print("\t", "\n\t".join(file_keep))
         if file_remove:
-            print "These files will be removed:"
-            print "\t", "\n\t".join(file_remove)
+            print ("These files will be removed:")
+            print ("\t", "\n\t".join(file_remove))
         if not image_dir and root_filenames:
-            print "These packages own files in /:"
+            print ("These packages own files in /:")
             packages = sorted(list(set(subprocess.check_output(
                 ["qfile", "-qC", "--"] + root_filenames).splitlines())))
-            print "\t", "\n\t".join(packages)
+            print ("\t", "\n\t".join(packages))
         if not args.dry_run:
             do_merge(file_keep, file_remove)
 
